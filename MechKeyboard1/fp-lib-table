@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Alps_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid-master/Alps_Only.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/random-keyboard-parts.pretty-master)(options "")(descr ""))
+  (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty-master)(options "")(descr ""))
+  (lib (name local)(type KiCad)(uri D:/GITHUB/mechkeyboard1/MechKeyboard1/local)(options "")(descr ""))
+)
