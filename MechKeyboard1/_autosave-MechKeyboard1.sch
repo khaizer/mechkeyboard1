@@ -545,8 +545,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 5500 6400 4600
 Connection ~ 6400 4600
-Wire Wire Line
-	6400 4600 7100 4600
 $Comp
 L power:+5V #PWR?
 U 1 1 607709B3
@@ -557,5 +555,58 @@ F 2 "" H 7600 4600 50  0001 C CNN
 F 3 "" H 7600 4600 50  0001 C CNN
 	1    7600 4600
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 60771F06
+P 7350 4600
+F 0 "F?" V 7145 4600 50  0000 C CNN
+F 1 "500m" V 7236 4600 50  0000 C CNN
+F 2 "" H 7400 4400 50  0001 L CNN
+F 3 "~" H 7350 4600 50  0001 C CNN
+	1    7350 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 607730C0
+P 7150 4550
+F 0 "#PWR?" H 7150 4400 50  0001 C CNN
+F 1 "VCC" H 7165 4723 50  0000 C CNN
+F 2 "" H 7150 4550 50  0001 C CNN
+F 3 "" H 7150 4550 50  0001 C CNN
+	1    7150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4600 7150 4600
+Wire Wire Line
+	7150 4550 7150 4600
+Connection ~ 7150 4600
+Wire Wire Line
+	7150 4600 7250 4600
+Wire Wire Line
+	7450 4600 7600 4600
+$Comp
+L Device:R_Small R?
+U 1 1 6077CBFC
+P 6750 5600
+F 0 "R?" H 6691 5554 50  0000 R CNN
+F 1 "22" H 6691 5645 50  0000 R CNN
+F 2 "" H 6750 5600 50  0001 C CNN
+F 3 "~" H 6750 5600 50  0001 C CNN
+	1    6750 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6077F0DE
+P 6900 5600
+F 0 "R?" H 6841 5554 50  0000 R CNN
+F 1 "22" H 6841 5645 50  0000 R CNN
+F 2 "" H 6900 5600 50  0001 C CNN
+F 3 "~" H 6900 5600 50  0001 C CNN
+	1    6900 5600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
