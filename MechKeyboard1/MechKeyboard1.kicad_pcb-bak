@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 14)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 154)
@@ -578,11 +578,6 @@
       (net 1 GND))
     (pad 13 thru_hole oval (at 4.32 2.6) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu F.Mask)
       (net 1 GND))
-    (model "${KIPRJMOD}/Type-C.pretty-master/HRO  TYPE-C-31-M-12.step"
-      (offset (xyz -4.45 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
-    )
   )
 
   (module random-keyboard-parts:SOT143B (layer B.Cu) (tedit 5E62B3A6) (tstamp 6074F69F)
@@ -5583,20 +5578,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (gr_line (start 17.4625 15.875) (end 161.13125 15.875) (layer Edge.Cuts) (width 0.05) (tstamp 6075486D))
-  (gr_line (start 15.875 109.5375) (end 15.875 17.4625) (layer Edge.Cuts) (width 0.05) (tstamp 6075486C))
-  (gr_line (start 319.0875 111.125) (end 17.4625 111.125) (layer Edge.Cuts) (width 0.05) (tstamp 6075486B))
-  (gr_line (start 320.675 17.4625) (end 320.675 109.5375) (layer Edge.Cuts) (width 0.05) (tstamp 6075486A))
-  (gr_line (start 175.41875 15.875) (end 319.0875 15.875) (layer Edge.Cuts) (width 0.05) (tstamp 60754869))
-  (gr_arc (start 175.41875 14.2875) (end 173.83125 14.2875) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 173.83125 11.90625) (end 173.83125 14.2875) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 162.71875 11.90625) (end 173.83125 11.90625) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 162.71875 14.2875) (end 162.71875 11.90625) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 161.13125 14.2875) (end 161.13125 15.875) (angle -90) (layer Edge.Cuts) (width 0.05))
-  (gr_arc (start 319.0875 109.5375) (end 319.0875 111.125) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60754855))
-  (gr_arc (start 17.4625 17.4625) (end 17.4625 15.875) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60754855))
-  (gr_arc (start 17.4625 109.5375) (end 15.875 109.5375) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 60754855))
-  (gr_arc (start 319.0875 17.4625) (end 320.675 17.4625) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
